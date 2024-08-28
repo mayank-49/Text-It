@@ -245,7 +245,11 @@ header{
         margin: 0px auto;
     }
 }
-
+@media screen and (max-width:436px){
+    .summary-heading h1{
+        font-size: 1.8rem;
+    }
+}
 @media screen and (max-width:431px) {
     body{
         gap: 2rem;
