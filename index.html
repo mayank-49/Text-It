@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><h1>Text-It</h1></div>
+        <div class="dark-mode">
+            <button class="btn-toggle"><box-icon name='sun' class="switch">dark</box-icon></button>
+        </div>
+    </header>
+    
+    <div class="main">
+        <div class="heading"><h1>Text-It : Word Counter, Character Counter, Remove Extra Space, Font Editor</h1></div>
+        <div class="text">
+            <h2>Enter Your Text Here:</h2>
+            <textarea name="" id="inText" spellcheck="false"></textarea>
+        </div>
+        <div class="btns">
+            <button class="btn1 btn">Convert Uppercase</button>
+            <button class="btn2 btn">Convert Lowercase</button>
+            <button class="btn3">Clear Text</button>
+            <button class="btn4">Copy Text</button>
+            <button class="btn5 btn">Remove Extra Spaces</button>
+            <select name="" id="font">
+                <option value="">Normal Font</option>
+            </select>
+        </div>
+
+        <div class="summary">
+            <div class="summary-heading"><h1>Summary Of Your Text</h1></div>
+            <div class="summary-content">
+                <p class="words">Number of Words: <span>0</span></p>
+                <p class="characters">Number of characters: <span>0</span></p>
+                <p class="time">Reading Time: <span>0</span></p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
